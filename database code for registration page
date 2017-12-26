@@ -1,0 +1,4 @@
+use demo;
+create table users(loginname varchar(30),password varchar(30));
+select * from users;
+insert into users values("login1","demo123");
